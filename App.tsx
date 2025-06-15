@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import { useThemeContext, ThemeProvider as CustomThemeProvider } from './context/ThemeContext';
 
 import useLocalStorage from './hooks/useLocalStorage';
-import { Task } from './types/Task';
+import type { Task } from './types/Task';
 import Navbar from './components/Navbar';
 import AddTaskForm from './components/AddTaskForm';
 import TaskList from './components/TaskList';
